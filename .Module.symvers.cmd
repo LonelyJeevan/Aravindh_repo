@@ -1,0 +1,1 @@
+cmd_/home/aravindh/git_operations/Aravindh_repo/Module.symvers := sed 's/\.ko$$/\.o/' /home/aravindh/git_operations/Aravindh_repo/modules.order | scripts/mod/modpost -m -a  -o /home/aravindh/git_operations/Aravindh_repo/Module.symvers -e -i Module.symvers   -T -
